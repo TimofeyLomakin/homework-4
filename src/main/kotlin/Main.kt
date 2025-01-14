@@ -9,7 +9,7 @@ fun main() {
     println(canMakeTransfer(transferSum, transferPerMonth, typeCard))
 }
 
-un canMakeTransfer(transferSum: Int, transferPerMonth: Int, typeCard: String): String {
+fun canMakeTransfer(transferSum: Int, transferPerMonth: Int, typeCard: String): String {
     val limitTransferPerDay = 150_000
     val limitTransferPerMonth = 600_000
     val limitTransferPerDayForVK = 15_000
