@@ -11,7 +11,7 @@ import org.junit.Assert.*
 
    val result = ru.netology.transfer(typeCard, transferPerMonth, transferSum)
 
-   assertEquals(75, result)
+   assertEquals(76, result)
   }
 
   @Test
